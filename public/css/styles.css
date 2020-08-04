@@ -39,3 +39,15 @@
 }
 
 /* End polygon */
+
+/* Start banner-content-next-icon */
+
+.banner-content-next-icon:hover i {
+    color: orangered;
+}
+
+.banner-content-next-icon:hover p {
+    color: orangered;
+}
+
+/* End banner-content-next-icon */
