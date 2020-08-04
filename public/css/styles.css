@@ -1,0 +1,41 @@
+/* Start banner */
+
+.banner-content {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://images.pexels.com/photos/4050299/pexels-photo-4050299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* End banner */
+
+/* Start banner-content-next */
+
+.banner-content-next {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -5%;
+}
+
+@media (max-width :500px) {
+    .banner-content-next {
+        left: 30%;
+    }
+}
+
+/* End banner-content-next */
+
+/* Start polygon */
+
+.polygon {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 25%);
+    bottom: -6.5%;
+    position: absolute;
+    z-index: -1;
+}
+
+/* End polygon */
