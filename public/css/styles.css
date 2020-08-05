@@ -1,13 +1,13 @@
 /* Start banner */
 
 .banner-content {
-    height: 80vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("https://images.pexels.com/photos/4050299/pexels-photo-4050299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/4050299/pexels-photo-4050299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 /* End banner */
@@ -15,16 +15,16 @@
 /* Start banner-content-next */
 
 .banner-content-next {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: -5%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -5%;
 }
 
-@media (max-width :500px) {
-    .banner-content-next {
-        left: 30%;
-    }
+@media (max-width: 500px) {
+  .banner-content-next {
+    left: 30%;
+  }
 }
 
 /* End banner-content-next */
@@ -32,10 +32,10 @@
 /* Start polygon */
 
 .polygon {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 25%);
-    bottom: -6.5%;
-    position: absolute;
-    z-index: -1;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 25%);
+  bottom: -6.5%;
+  position: absolute;
+  z-index: -1;
 }
 
 /* End polygon */
@@ -43,11 +43,153 @@
 /* Start banner-content-next-icon */
 
 .banner-content-next-icon:hover i {
-    color: orangered;
+  color: orangered;
 }
 
 .banner-content-next-icon:hover p {
-    color: orangered;
+  color: orangered;
 }
 
 /* End banner-content-next-icon */
+
+/* Start main-tri */
+
+.main-tri {
+  position: relative;
+}
+
+/* End main-tri */
+
+/* Start triangle */
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid red;
+}
+
+.triangle i {
+  position: absolute;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.triangle:hover {
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid grey;
+}
+
+.triangle:hover i {
+  color: red;
+}
+
+/* End triangle */
+
+/* Start square */
+
+.square {
+  width: 200;
+  height: 200px;
+  background: red;
+}
+
+.square:hover {
+  background: grey;
+}
+
+.square:hover i {
+  color: red;
+}
+
+.square i {
+  position: absolute;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+/* End square */
+
+/* Start main-sqr */
+
+.main-sqr {
+  position: relative;
+}
+
+/* End main-sqr */
+
+/* Start poly */
+
+.poly {
+  width: 200px;
+  height: 200px;
+  background: red;
+  border-radius: 50%;
+}
+
+.poly i {
+  position: absolute;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.poly:hover {
+  background: grey;
+}
+
+.poly:hover i {
+  color: red;
+}
+
+/* End square */
+
+/* Start main-poly */
+
+.main-poly {
+  position: relative;
+}
+
+/* End main-poly */
+/* Start start */
+
+.star {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 200px solid red;
+}
+
+.star i {
+  position: absolute;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.star:hover {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 200px solid grey;
+}
+
+.star:hover i {
+  color: red;
+}
+
+/* End start */
+
+/* Start main-star */
+
+.main-star {
+  position: relative;
+}
+
+/* End main-star */
