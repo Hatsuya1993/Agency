@@ -271,3 +271,51 @@
 }
 
 /* End future-content */
+
+/* Start current-content1 */
+
+.current-content1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.current-content1:hover .current-content2 {
+  width: 100%;
+  bottom: 0;
+}
+
+.current-content1:hover .current-img {
+  opacity: 0.8;
+}
+
+/* End current-content1 */
+
+/* Start current-content2 */
+
+.current-content2 {
+  position: absolute;
+  width: 100%;
+  transition: all 0.5s linear;
+  bottom: -35%;
+  opacity: 1;
+}
+
+/* End current-content2 */
+
+/* Start social */
+
+.social:hover {
+  color: red;
+}
+
+/* End social */
+
+/* Start of current-img */
+
+.current-img {
+  opacity: 1;
+  transition: all 0.8s linear;
+
+}
+
+/* End of current-img */
