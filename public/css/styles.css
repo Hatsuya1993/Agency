@@ -315,7 +315,25 @@
 .current-img {
   opacity: 1;
   transition: all 0.8s linear;
-
 }
 
 /* End of current-img */
+
+/* Start card-body */
+
+.card-body {
+  position: relative;
+}
+
+/* End card-body */
+
+/* Start img-content */
+
+.img-content {
+  position: absolute;
+  left: 50%;
+  top: -25%;
+  transform: translateX(-50%);
+}
+
+/* End img-content */
