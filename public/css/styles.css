@@ -337,3 +337,27 @@
 }
 
 /* End img-content */
+
+/* Start progressBar-content */
+
+.progressBar-content {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  transform: skew(0deg, 4deg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  height: 60vh;
+}
+
+/* End progressBar-content */
+
+/* Start progressBar-content-edit */
+
+.progressBar-content-edit {
+  transform: skew(0deg, -4deg);
+}
+
+/* End progressBar-content-edit */
