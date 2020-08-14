@@ -361,3 +361,36 @@
 }
 
 /* End progressBar-content-edit */
+
+/* Start money */
+
+.money {
+  position: relative;
+}
+
+/* End money */
+
+/* Start money-pos */
+
+.money-pos {
+  position: absolute;
+}
+
+/* End money-pos */
+
+/* Start money-box */
+
+.money-box {
+  position: relative;
+}
+
+/* End money-box */
+
+/* Start tri */
+
+.tri {
+  position: absolute;
+  top: 45%;
+}
+
+/* End tri */
